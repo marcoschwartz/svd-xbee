@@ -509,7 +509,7 @@ Node.prototype._onReceivePacket = function(packet) {
 
 Node.prototype._onDataSampleRx = function(packet) {
   var sample = parseIOSample(packet.ioSample);
-  this.emit('io', sample);  
+  this.emit('io', sample, packet);  
   if (this.xbee.use_heartbeat) {
     this.refreshTimeout();
   }
