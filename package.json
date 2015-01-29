@@ -1,12 +1,12 @@
   {
-    "name": "svd-xbee",
-    "version": "0.3.6",
-    "description": "A more high level fork of Richard Morrison's node-xbee",
+    "name": "xbee-arest",
+    "version": "0.1.0",
+    "description": "A fork of svd-xbee for the aREST project",
     "author": {
-      "name": "Jan Kolkmeier",
-      "email": "jankolkmeier@gmail.com"
+      "name": "Marco Schwartz",
+      "email": "marcolivier.schwartz@gmail.com"
     },
-  "maintainers": "Jan Kolkmeier <jankolkmeier@gmail.com>",
+  "maintainers": "Marco Schwartz <marcolivier.schwartz@gmail.com>",
   "contributors": [
     {
       "name": "Jan Kolkmeier",
@@ -29,17 +29,14 @@
     "automation",
     "control"
   ],
-  "homepage": "https://github.com/jouz/svd-xbee",
+  "homepage": "https://github.com/marcoschwartz/svd-xbee",
   "dependencies": {
-    "serialport": "1.1.x",
-    "async": "0.1.x"
-  },
-  "engines": {
-    "node": "0.6.x | 0.8.x | 0.10.x"
+    "serialport": "latest",
+    "async": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jouz/svd-xbee.git"
+    "url": "git://github.com/marcoschwartz/svd-xbee.git"
   },
   "readmeFilename": "README.md"
 }
